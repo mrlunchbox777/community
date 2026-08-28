@@ -1,7 +1,7 @@
 # Approval-ready outreach draft: ibm-charts
 
 - Destination: `awesome@ibm.com`, IBM organization-level open-source contact published in IBM GitHub organization metadata; pending approval.
-- Proposed subject: `Artifact Hub ownership claim for the IBM Helm repository`
+- Proposed subject: `[Artifact Hub] Claim ownership of the ibm-charts Helm repository`
 - Proposed message:
 
 ```md
