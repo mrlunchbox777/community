@@ -1,22 +1,35 @@
-# IBM Charts contact draft — review only
+# Approval-ready outreach draft: ibm-charts
 
-**Destination:** `awesome@ibm.com`
+- Destination: `awesome@ibm.com`, IBM organization-level open-source contact published in IBM GitHub organization metadata; pending approval.
+- Proposed subject: `Artifact Hub ownership claim for the IBM Helm repository`
+- Proposed message:
 
-**Subject:** Artifact Hub ownership for IBM Charts
+```md
+Hello,
 
-Hello IBM Open Source team,
+I am reaching out about the Artifact Hub repository for the IBM Helm charts:
 
-The Helm project is reviewing the Artifact Hub repository currently associated with the IBM Helm chart feed.
+https://artifacthub.io/repositories/helm/ibm-charts
 
-- Artifact Hub repository: `REPLACE_WITH_VERIFIED_ID`
-- Feed: `https://raw.githubusercontent.com/IBM/charts/master/repo/stable/`
-- Source repository: `https://github.com/IBM/charts`
+Artifact Hub repository ID: `5d25cfa5-d7fc-401f-a7d3-2c7645bd2731`
 
-The repository is currently receiving Helm project notifications because it is registered under the Helm organization in Artifact Hub. Could the IBM Charts team please confirm whether IBM would like to claim and manage this Artifact Hub repository? If so, Artifact Hub ownership instructions are available at https://artifacthub.io/docs/topics/repositories/claiming-ownership/.
+Helm currently receives notifications for this listing. The validated Helm repository is:
 
-If this mailbox is not the appropriate route for IBM Charts ownership questions, please redirect this inquiry to the current project owner or maintainer.
+https://raw.githubusercontent.com/IBM/charts/master/repo/stable/
 
-Thank you,
-Helm project
+The publishing source is:
 
-> Review note: Insert the exact Artifact Hub repository ID and approve the message before sending. This file is not an authorization to send.
+https://github.com/IBM/charts
+
+If the IBM charts team still maintains this repository, please follow Artifact Hub's ownership-claim instructions:
+
+https://artifacthub.io/docs/topics/repositories/#ownership-claim
+
+The claimant should publish an `artifacthub-repo.yml` file at the published Helm repository path containing this repository ID and the email address used by the claimant's Artifact Hub account. Please confirm here after the claim succeeds.
+
+If IBM is no longer responsible for this repository, please redirect us to the current owner or team contact.
+
+Thanks.
+```
+
+This draft follows the established ownership-transfer template. It is not authorization to send.
